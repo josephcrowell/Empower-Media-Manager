@@ -1,1 +1,1 @@
-# Empower-Media-Manager
+# Empower Media Manager
