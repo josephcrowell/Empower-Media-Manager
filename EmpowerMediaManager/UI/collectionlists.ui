@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CollectionLists</class>
+ <widget class="QMainWindow" name="CollectionLists">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <widget class="QWidget" name="pageMovies"/>
+      <widget class="QWidget" name="pageTVShows"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMovies"/>
+   <addaction name="actionTV_Shows"/>
+   <addaction name="separator"/>
+   <addaction name="actionMark_All"/>
+   <addaction name="actionUnmark_All"/>
+  </widget>
+  <action name="actionMovies">
+   <property name="text">
+    <string>Movies</string>
+   </property>
+  </action>
+  <action name="actionTV_Shows">
+   <property name="text">
+    <string>TV Shows</string>
+   </property>
+  </action>
+  <action name="actionMark_All">
+   <property name="text">
+    <string>Mark All</string>
+   </property>
+  </action>
+  <action name="actionUnmark_All">
+   <property name="text">
+    <string>Unmark All</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
